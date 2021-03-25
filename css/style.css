@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:0; 
+    margin-bottom: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* Css Kevin */
+
+
+#WhatsKE{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:120px;
+    right:20px;background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
+.DescricaoIcone{
+    text-align: center !important;
+}
+#PlanosCardMes{
+    text-decoration: none;
+    font-size: 0.5em !important;
+    vertical-align:bottom!important;
+    color: white;
+}
+#PlanosCardMesBaixo{
+    text-decoration: none;
+    font-size: 0.5em !important;
+    vertical-align:bottom!important;
+    color: #3D3C3C;
+}
+#Mapa{
+    width: 100%;
+    height: 95% ;
+    margin: 0;
+    border:0;
+    border-radius: 10px;
+}
+#lagerhaus {
+    margin: auto 0;
+    width: 200px;
+}
+#cabecalho{
+    width: auto ;
+    margin: 0 auto;
+}
+#Carrosel {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Espaco img{
+    width: auto;
+}
+
+.RodapeFixo{
+    text-align:center ;
+    background-color: #eb8d2a !important;
+    width:100%;
+    width: auto;
+    color: white;
+    font-size: 13px;
+}
+
+.ConfiguracoesCard{
+    background-color: #eb8d2a !important;
+    color: #ffffff; 
+    text-align: center;
+    font-size: 15px;
+}
+.ConfiguracoesCard p{
+    text-align: justify;
+}
+.ConfiguracoesCard h4{
+    text-align: center;
+    font-size: 2em !important;
+}
+.ConfiguracoesCard span {
+    color: #3D3C3C;
+    text-decoration: line-through;
+    font-size: 1.3em;
+}
+
+.ConfiguracoesCardBaixo{
+    background-color: #3D3C3C !important;
+    color: #ffffff; 
+    text-align: center;
+    font-size: 15px;
+}
+.ConfiguracoesCardBaixo p{
+    text-align: justify;
+}
+.ConfiguracoesCardBaixo h4{
+    text-align: center;
+    font-size: 2em !important;
+}
+.ConfiguracoesCardBaixo span {
+    color: white    ;
+    text-decoration: line-through;
+    font-size: 1.3em;
+}
+
+.ConfiguracoesCardBaixoBranco{
+    background-color: white !important;
+    color: #ffffff; 
+    text-align: center;
+    font-size: 15px;
+}
+.ConfiguracoesCardBaixoBranco p{
+    text-align: justify;
+    color: #3D3C3C;
+}
+.ConfiguracoesCardBaixoBranco h4{
+    text-align: center;
+    font-size: 2em !important;
+    color: #3D3C3C;
+}
+.ConfiguracoesCardBaixoBranco span {
+    color: #3D3C3C;
+    text-decoration: line-through;
+    font-size: 1.3em;
+}
+.ConfiguracoesCardBaixoBranco h1 {
+    color: #3D3C3C;
+}
+
+.ReduzaCustos{
+    width: 1100px;
+    margin: 0 auto;
+    color: #3D3C3C; 
+    text-align: center;
+    font-size: 11px;
+    padding-top: 15px;
+}
+.ReduzaCustos h1{
+    font-size: 3em;
+    margin-bottom: 2px;
+}
+.ReduzaCustos h2{
+    font-size: 1.3em;
+    color: #EB8D2A;
+    margin-top: 2px;
+}
+.ReduzaCustos hr{
+    width: 430px;
+	margin: 0 auto; 
+    height:2px;
+    background-color: #EFEFEF;
+}
+
+.ConfiguracoesCardSobre{
+    background-color: #EFEFEF !important;
+
+}
+.ConfiguracoesCardSobre p{
+    text-align: justify;
+    font-size: 1.3em ;
+    padding: 0;
+    margin-bottom: -15px;
+}
+.ConfiguracoesCardSobre h4{
+    text-align: center;
+    font-size: 2em !important;
+    margin-top: -15px;
+    margin-bottom: -15px;
+
+}
+.ConfiguracoesCardSobre img{
+    height: 163px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#SobreImagemCardDiferente{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner { 
+    font-size: 15px !important;
+    background-image: url("../img/Banner.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 1100px;
+    padding: 10% 0 10% 5%; 
+    color: #fff;
+}
+.banner h1{
+    font-size: 2.5em !important;
+}
+.banner h2{
+    font-size: 1.5em;
+}
+.banner p{
+    font-size: 1em;
+    font-weight: 400 !important;
+}
+
+.Coworking{
+    background-color: #3d3c3c;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 2% 5% 2% 5%;
+    font-size: 16px !important;
+    color: #FFFFFF;
+}
+.Coworking div{ 
+    position: relative;
+}
+.Coworking h1{
+    font-size: 2em;
+}
+.Coworking h3{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.Coworking p{
+    font-size: 1em;
+    font-weight: 400 !important;
+    text-align: justify;
+}
+.Coworking img{
+    max-width:100%;
+    height:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.EnderecoFiscal{
+    font-size: 16px !important;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    padding: 2% 5% 2% 5%;
+    color: #3d3c3c !important;
+}
+.EnderecoFiscal div{ 
+    position: relative;
+}
+.EnderecoFiscal h1{
+    margin-bottom: 20%;
+    font-size: 2em;   
+}
+.EnderecoFiscal h3{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.EnderecoFiscal p{
+    font-size: 1em;
+    font-weight: 400 !important;
+    text-align: justify;
+}
+.EnderecoFiscal img{
+    max-width:100%;
+    height:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Storage{
+    font-size: 16px !important;
+    background-color: #EB8D2A;
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;
+    padding: 2% 5% 2% 5%;
+    color: #3d3c3c;
+}
+.Storage h1{
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-size: 2em;   
+}
+.Storage h2{
+    font-size: 1.5em;
+    margin: 0;
+}
+.Storage h3{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.Storage p{
+    font-size: 1em;
+    font-weight: 400 !important;
+    text-align: justify;
+}
+.Storage img{
+    max-width:100%;
+    height:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.NossosPlanos{
+    font-size: 15px !important;
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;
+    padding: 2% 0.5% 2% 0.5%;
+    color: #3d3c3c;
+}
+.NossosPlanos h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.Rodape{
+    font-size: 15px !important;
+    background-color: #EB8D2A;
+    width: auto;
+    padding: 2% 5% 2% 5%;
+    color: #3d3c3c;
+}
+.Rodape1 {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.final{
+    width: auto;
+    font-size: 15px;
+}
+
+#redes{
+    width: auto;
+}
+#redes img {
+    width: 45px;
+}
+
+.Missao{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    font-size: 11px;
+}
+.Missao h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.Missao p{
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 0 2% 0 2%;
+}
+
+@media screen and (max-width:1110px){
+    .banner{
+        font-size: 0.8em !important;
+        width: auto ;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .Coworking{
+        width: auto;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+
+    }
+
+    .Rodape1 {
+        width: auto ;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    
+    .EnderecoFiscal{
+        width: auto;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .Storage{
+        width: auto;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .NossosPlanos {
+        width: auto;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .RodapeFixo{
+        font-size: 10px;
+    }
+
+    #cabecalho{
+        width: 0 auto;
+        padding: 0;
+    }
+    .ReduzaCustos{
+        width: auto;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    .Missao{
+        width: auto;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    #Carrosel{
+        width: auto;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    .final{
+        width: auto;
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 992px){
+    .RodapeFixo{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 840px){
+    .ConfiguracoesCard{
+        font-size: 13px;
+    }
+    .ConfiguracoesCard h4{  
+        text-align: center;
+        font-size: 1.5em !important;
+    }
+    .ConfiguracoesCard h1{  
+        text-align: center;
+        font-size: 2.5em !important;
+    }
+    .ConfiguracoesCard span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.3em;
+    }
+
+    .ConfiguracoesCardBaixo{
+        font-size: 13px;
+    }
+    .ConfiguracoesCardBaixo h4{  
+        text-align: center;
+        font-size: 1.5em !important;
+    }
+    .ConfiguracoesCardBaixo h1{  
+        text-align: center;
+        font-size: 2.5em !important;
+    }
+    .ConfiguracoesCardBaixo span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.3em;
+    }
+
+    .ConfiguracoesCardBaixoBranco{
+        font-size: 13px;
+    }
+    .ConfiguracoesCardBaixoBranco h4{  
+        text-align: center;
+        font-size: 1.5em !important;
+    }
+    .ConfiguracoesCardBaixoBranco h1{  
+        text-align: center;
+        font-size: 2.5em !important;
+    }
+    .ConfiguracoesCardBaixoBranco span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.3em;
+    }
+
+    .ConfiguracoesCardSobre{
+        font-size: 8px;
+        padding-bottom: 10px;
+    }
+    .ConfiguracoesCardSobre img{
+        height: 130px;
+    }
+    
+    #ImagemMissao img{
+        height: 130px;
+    }
+}
+@media screen and (max-width:767px){
+    .EnderecoFiscal h1{
+        margin: 2%;
+    }
+
+    .ConfiguracoesCard{
+        font-size: 12px;
+    }
+    .ConfiguracoesCard h4{  
+        text-align: center;
+        font-size: 1.4em !important;
+    }
+    .ConfiguracoesCard h1{  
+        text-align: center;
+        font-size: 2.4em !important;
+    }
+    .ConfiguracoesCard span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.2em;
+    }
+
+    .ConfiguracoesCardBaixo{
+        font-size: 12px;
+    }
+    .ConfiguracoesCardBaixo h4{  
+        text-align: center;
+        font-size: 1.4em !important;
+    }
+    .ConfiguracoesCardBaixo h1{  
+        text-align: center;
+        font-size: 2.4em !important;
+    }
+    .ConfiguracoesCardBaixo span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.2em;
+    }
+
+    .ConfiguracoesCardBaixoBranco{
+        font-size: 12px;
+    }
+    .ConfiguracoesCardBaixoBranco h4{  
+        text-align: center;
+        font-size: 1.4em !important;
+    }
+    .ConfiguracoesCardBaixoBranco h1{  
+        text-align: center;
+        font-size: 2.4em !important;
+    }
+    .ConfiguracoesCardBaixoBranco span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.2em;
+    }
+    #redes {
+        font-size: 1em;
+    }
+    #redes img {
+        width: 2em;
+    }
+}
+@media screen and (max-width:665px){
+    .ConfiguracoesCard p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .ConfiguracoesCard h4{  
+        text-align: center;
+        font-size: 1.6em !important;
+    }
+    .ConfiguracoesCard h1{  
+        text-align: center;
+        font-size: 2.5em !important;
+    }
+    .ConfiguracoesCard span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.3em;
+    }
+
+    .ConfiguracoesCardBaixo p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .ConfiguracoesCardBaixo h4{  
+        text-align: center;
+        font-size: 1.6em !important;
+    }
+    .ConfiguracoesCardBaixo h1{  
+        text-align: center;
+        font-size: 2.5em !important;
+    }
+    .ConfiguracoesCardBaixo span {
+        color: #3D3C3C;
+        text-decoration: line-through;
+        font-size: 1.3em;
+    }
+
+    .ConfiguracoesCardBaixoBranco p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .ConfiguracoesCardBaixoBranco h1{  
+        text-align: center;
+        font-size: 2.5em !important;
+    }
+    .final{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:442px){
+    .banner{
+        font-size: 65% !important;
+    }
+
+    .Coworking  p{
+        font-size: 70% !important;
+    }
+    .Coworking h1{
+        font-size: 1.3em !important;
+    }
+    .Coworking h3{
+        font-size: 1.1em !important;
+    }
+
+    .EnderecoFiscal  p{
+        font-size: 70% !important;
+    }
+    .EnderecoFiscal h1{
+        font-size: 1.3em !important;
+    }
+    .EnderecoFiscal h3{
+        font-size: 1.1em !important;
+    }
+
+    .Storage  p{
+        font-size: 70% !important;
+    }
+    .Storage h1{
+        font-size: 1.3em !important;
+    }
+    .Storage h2{
+        font-size: 1.2em !important;
+    }
+    .Storage h3{
+        font-size: 1.1em !important;
+    }
+
+    .NossosPlanos h1{
+        margin-bottom: 5%;
+    }
+    .final{
+        width: auto;
+        font-size: 13px;
+    }
+
+    #redes {
+        font-size: 1em;
+    }
+
+}
+@media screen and (max-width:363px){
+    .banner h1{
+        font-size: 1.8em !important;
+    }
+    .banner h2{
+        font-size: 1.1em !important;
+    }
+
+    .Coworking h1{
+        font-size: 1.2em !important;
+    }
+
+    .EnderecoFiscal h1{
+        font-size: 1.2em !important;
+    }
+
+    .ConfiguracoesCard p{
+        text-align: justify;
+        font-size: 14px;
+    }
+    .ConfiguracoesCardBaixo p{
+        text-align: justify;
+        font-size: 14px;
+    }
+    .ConfiguracoesCardBaixoBranco p{
+        text-align: justify;
+        font-size: 14px;
+    }
+    .Missao img{
+        height: 80px;
+    }
+    .final{
+        font-size: 12px;
+    }
+    #redes {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:300px){
+    .banner h2{
+        font-size: 1.1em;
+    }
+    .final{
+        font-size: 11px;
+    }
+}
+
+/* Css Kevin */
+
+html {    
+    scroll-behavior: smooth;
+    font-family: 'lato', sans-serif;
+}
+
+.navbar {
+    background:white;
+    padding: 20px ;
+    margin-top:0px;
+    
+    
+}
+
+#containernav {
+    margin-bottom: 4.5rem;
+    width: 100%;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#faleconosco {
+    background-color: #eb8d2a;
+}
+#modal1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;   
+}
+
+.btn-primary {
+    color: #EB8D2A;
+}
+.row  {
+    text-align: center;  
+}
+
+#titulomodal {
+    background-color: #3d3c3c;
+}
+#exampleModalLabel {
+color: #eb8d2a;
+}
+#enviarform1 {
+    background-color: #3d3c3c;
+    color: #eb8d2a;
+    border-color: #3d3c3c;
+    margin-bottom: 30px;
+}
+
+#containerpolitica {
+text-justify:auto;
+text-align: justify;
+background-color: #3d3c3c;
+color: white;
+width: 1117px;
+margin-left:auto;
+margin-right: auto;
+margin-bottom: 35px;
+margin-top: 105px;
+display: block;
+}
+#politica {
+    color: #EB8D2A;
+}
+/*FONTE*/
+/* Medias 375px */
+
+@media (max-width:376px) {
+    #containerpolitica {
+        width:100%;
+        text-align: justify;
+        display: table-cell;
+        padding: 20px;
+    }    
+}
+
+
+@media (max-width:776px) {
+    #containerpolitica {
+        width:100%;
+        text-align: justify;
+        display: table-cell;
+        padding: 20px;
+    }
+}
