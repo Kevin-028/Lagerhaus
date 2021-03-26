@@ -95,12 +95,6 @@
     font-size: 2em !important;
 }
 
-.ConfiguracoesCard span {
-    color: #3D3C3C;
-    text-decoration: line-through;
-    font-size: 1.3em;
-}
-
 .ConfiguracoesCardBaixo {
     background-color: #3D3C3C !important;
     color: #ffffff;
@@ -115,12 +109,6 @@
 .ConfiguracoesCardBaixo h4 {
     text-align: center;
     font-size: 2em !important;
-}
-
-.ConfiguracoesCardBaixo span {
-    color: white;
-    text-decoration: line-through;
-    font-size: 1.3em;
 }
 
 .ConfiguracoesCardBaixoBranco {
