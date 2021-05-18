@@ -10,6 +10,15 @@
 
 /* Css Kevin */
 
+#enviarform1 {
+    background-color: #3d3c3c;
+    color: #eb8d2a;
+    border-color: #3d3c3c;
+    margin-bottom: 30px;
+}
+#aaa{
+    background-color: red;
+}
 #WhatsKE {
     position: fixed;
     width: 60px;
@@ -22,7 +31,7 @@
     text-align: center;
     font-size: 30px;
     box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
+    z-index: 1000000;
 }
 
 .DescricaoIcone {
@@ -77,6 +86,7 @@
     width: auto;
     color: white;
     font-size: 13px;
+
 }
 
 .ConfiguracoesCard {
@@ -172,14 +182,14 @@
 
 .ConfiguracoesCardSobre p {
     text-align: justify;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 0;
     margin-bottom: -15px;
 }
 
 .ConfiguracoesCardSobre h4 {
     text-align: center;
-    font-size: 2em !important;
+    font-size: 1.5em;
     margin-top: -15px;
     margin-bottom: -15px;
 }
@@ -206,8 +216,8 @@
     color: #fff;
 }
 
-.banner h1 {
-    font-size: 2.5em !important;
+.banner > div > h1{
+    font-size: 2.5em;
 }
 
 .banner h2 {
@@ -350,21 +360,16 @@
 }
 
 .Rodape {
-    font-size: 15px !important;
+    font-size: 1em;
     background-color: #EB8D2A;
     width: auto;
-    padding: 2% 5% 2% 5%;
+    padding: 2% 5% 100px 5%;
     color: #3d3c3c;
 }
 
 .Rodape1 {
     width: 1100px;
     margin: 0 auto;
-}
-
-.final {
-    width: auto;
-    font-size: 15px;
 }
 
 #redes {
@@ -380,18 +385,25 @@
     margin: 0 auto;
     text-align: center;
     padding: 2% 0 2% 0;
-    font-size: 11px;
+    font-size: 1em
 }
 
 .Missao h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 20px;
+}
+.Missao h4{
+    font-size: 1.5em;
 }
 
 .Missao p {
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: justify;
     padding: 0 2% 0 2%;
+}
+.final{
+    height: 60px;
+    background-color: #eb8d2a;
 }
 
 @media screen and (min-width: 1500px){
@@ -401,37 +413,31 @@
 }
 @media screen and (max-width:1110px) {
     .banner {
-        font-size: 0.8em !important;
+        font-size: 0.8em;
     }
     #CoworkingTamanho {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+
     }
     .Coworking {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+
     }
     .Rodape1 {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+
     }
     .EnderecoFiscal {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+
     }
-    .Storage {
+    
+    #StorageTamanho {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+        margin: 0 auto;
     }
     .NossosPlanos {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
     }
     #RodapeFixo {
         font-size: 10px;
@@ -442,28 +448,23 @@
     }
     .ReduzaCustos {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+
     }
     .Missao {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+
     }
     #Carrosel {
         width: auto;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+
     }
-    .final {
-        width: auto;
-        font-size: 15px;
-    }
+
 }
 
 @media screen and (max-width: 992px) {
-    #RodapeFixo {
-        font-size: 9px;
+    .final{
+        height: 60px;
+        background-color: #eb8d2a;
     }
 }
 
@@ -586,6 +587,10 @@
     #redes img {
         width: 2em;
     }
+    .final{
+        height: 100px;
+        background-color: #eb8d2a;
+    }
 }
 
 @media screen and (max-width:665px) {
@@ -638,37 +643,50 @@
 
 @media screen and (max-width:442px) {
     .banner {
-        font-size: 65% !important;
+        height: 71vh;
+        padding-top: 28%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
+    .banner > div > h1{
+        font-size: 1.8em;
+    }
+    .banner > div > h2{
+        font-size: 1.09em;
+    }
+    .banner p{
+        font-size: 0.9em;
+    }
+    
     .Coworking p {
-        font-size: 70% !important;
+        font-size: 0.9em;
     }
     .Coworking h1 {
-        font-size: 1.3em !important;
+        font-size: 1.3em;
     }
     .Coworking h3 {
-        font-size: 1.1em !important;
+        font-size: 1.1em ;
     }
     .EnderecoFiscal p {
-        font-size: 70% !important;
+        font-size: 0.9em;
     }
     .EnderecoFiscal h1 {
-        font-size: 1.3em !important;
+        font-size: 1.3em ;
     }
     .EnderecoFiscal h3 {
-        font-size: 1.1em !important;
+        font-size: 1.1em;
     }
     .Storage p {
-        font-size: 70% !important;
+        font-size: 0.9em;
     }
     .Storage h1 {
-        font-size: 1.3em !important;
+        font-size: 1.3em;
     }
     .Storage h2 {
-        font-size: 1.2em !important;
+        font-size: 1.2em;
     }
     .Storage h3 {
-        font-size: 1.1em !important;
+        font-size: 1.1em;
     }
     .NossosPlanos h1 {
         margin-bottom: 5%;
@@ -683,11 +701,11 @@
 }
 
 @media screen and (max-width:363px) {
-    .banner h1 {
-        font-size: 1.8em !important;
+    .banner > div > h1 {
+        font-size: 1.6em ;
     }
-    .banner h2 {
-        font-size: 1.1em !important;
+    .banner > div > h2 {
+        font-size: 0.95em ;
     }
     .Coworking h1 {
         font-size: 1.2em !important;
@@ -780,12 +798,7 @@ html {
     color: #eb8d2a;
 }
 
-#enviarform1 {
-    background-color: #3d3c3c;
-    color: #eb8d2a;
-    border-color: #3d3c3c;
-    margin-bottom: 30px;
-}
+
 
 #containerpolitica {
     text-justify: auto;

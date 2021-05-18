@@ -76,3 +76,17 @@ $("#ancoraplanos ").click(function() {
     let posicao = $(".NossosPlanos ").offset().top - $("nav ").height() - 15;
     $(window).scrollTop(posicao);
 })
+$("#ancorareduza").click(function(){
+    let posicao = $(".ReduzaCustos").offset().top - $("nav").height() -15;
+    $(window).scrollTop(posicao);
+});
+
+$("#ancoraespaco").click(function(){
+    let posicao = $(".ReduzaCustos").offset().top - $("nav").height() -15;
+    $(window).scrollTop(posicao);
+});
+
+$("#ancoramissao").click(function(){
+    let posicao = $(".Missao").offset().top - $("nav").height() -0;
+    $(window).scrollTop(posicao);
+});
