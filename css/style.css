@@ -71,10 +71,9 @@
     width: auto;
 }
 
-.RodapeFixo {
+#RodapeFixo {
     text-align: center;
     background-color: #eb8d2a !important;
-    width: 100%;
     width: auto;
     color: white;
     font-size: 13px;
@@ -434,7 +433,7 @@
         margin-left: 0.5%;
         margin-right: 0.5%;
     }
-    .RodapeFixo {
+    #RodapeFixo {
         font-size: 10px;
     }
     #cabecalho {
@@ -463,7 +462,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    .RodapeFixo {
+    #RodapeFixo {
         font-size: 9px;
     }
 }
