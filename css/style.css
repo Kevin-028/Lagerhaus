@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: 0;
     margin-bottom: 0;
+    font-size: 15px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -196,12 +197,13 @@
 }
 
 .banner {
-    height: 85.5vh;
+    height: 79vh;
     font-size: 15px !important;
     background-image: url("../img/Banner.png");
     background-size: cover;
     margin: 0 auto;
-    padding: 15% 0 15% 5%;
+    padding-left: 10%;
+    padding-top: 10%;
     color: #fff;
 }
 
@@ -218,13 +220,10 @@
     font-weight: 400 !important;
 }
 
-#11 {}
-
 .Coworking {
     background-color: #3d3c3c;
     margin: 0 auto;
     padding: 2% 5% 2% 5%;
-    font-size: 16px !important;
     color: #FFFFFF;
 }
 
@@ -396,6 +395,11 @@
     padding: 0 2% 0 2%;
 }
 
+@media screen and (min-width: 1500px){
+    .banner{
+        height: 85.5vh;
+    }
+}
 @media screen and (max-width:1110px) {
     .banner {
         font-size: 0.8em !important;
