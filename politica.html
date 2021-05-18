@@ -13,14 +13,6 @@
 </script>
 <title>LAGERHAUS</title>
 
-
-
-
-<iframe width='100%' height='700px' src='https://3point.zohobookings.com/portal-embed#/customer/3point' frameborder='0' allowfullscreen='' > </iframe>
-
-
-
-
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,9 +31,6 @@
 <!-- NAVBAR -->
 <div class="container" width="100%" id="containernav">
     <nav class="navbar navbar-expand-xl  fixed-top navbar-light bg-light"  id="cabecalho"> 
-      
-        
-    
     <div class="container">
 
         <a class="navbar-brand" href="https://www.lagerhaus.ws">
@@ -189,121 +178,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<!--animaçao rodape-->
-	<script> 
-	var footer;
-	var interval;
-	var startPage = false;
-	var endPage = false;
-	$(document).ready(function () {
-	    footer = $('#rodape');
-	    $(document).scroll( function() {
-            clearTimeout(interval);
-            footer.show('slow'); 
-            //$("#footerBtn").hide();       
-
-            startPage = $(window).scrollTop() == 0;
-            endPage = $(window).scrollTop() + $(window).height() == $(this).height();
-            //alert('final da pagina '+endPage+' comeco da pagina '+ startPage);
-
-            if ( endPage || startPage ) {
-                clearTimeout(interval); 
-            }else {
-                interval = setTimeout( function() { 
-                    footer.hide('slow'); 
-                    $("#cabecalho").css("opacity","0.8");  
-                    //$("#footerBtn").show(); 
-                }, 500 );            
-            }       
-        
-        });
-
-   // mantem o footer na tela
-   footer.mouseover(function (){
-       footer.show();
-       // $("#footerBtn").hide();
-       clearTimeout(interval);
-   });
-
-   // ativa a saida do footer
-   footer.mouseout(function (){
-       if( !startPage && !endPage ){
-           interval = setTimeout( function() { 
-               footer.hide(); 
-              // $("#footerBtn").show(); 
-           }, 1000 );
-       }
-   })
-
-   /* // botão mostra footer
-   $("#footerBtn").click(function(){
-       footer.show();
-       this.hide();
-       
-   })
-   */
-   
-});
-
-
-/*ANCORAS*/
-
-$("#ancoracoworking").click(function(){
-	let posicao = $("#whats").offset().top - $("nav").height() +10;
-	$(window).scrollTop(posicao);
-})
-
-$("#ancoraendereco").click(function(){
-	let posicao = $("#row7").offset().top - $("nav").height() -15;
-	$(window).scrollTop(posicao);
-})
-
-$("#ancorastorage").click(function(){
-    let posicao = $("#pausastorage").offset().top - $("nav").height() -15;
-    $(window).scrollTop(posicao);
-})
-
-
-$("#ancoraplanos").click(function(){
-	let posicao = $("#planos").offset().top - $("nav").height() -40;
-	$(window).scrollTop(posicao);
-})
-
-
-$("#ancorareduza").click(function(){
-	let posicao = $("#reduza").offset().top - $("nav").height() -57;
-	$(window).scrollTop(posicao);
-})
-
-$("#ancoraespaco").click(function(){
-	let posicao = $("#espaco").offset().top - $("nav").height() -15;
-	$(window).scrollTop(posicao);
-})
-
-$("#ancoramissao").click(function(){
-    let posicao = $("#missao").offset().top - $("nav").height() -15;
-    $(window).scrollTop(posicao);
-})
-
-
-
-/*tawkto*/
-/*
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5f995527aca01a168836663d/1elngr20i';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();*/
-
-
-</script>
-
-
-
-
 </body>
 </html>
