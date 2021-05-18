@@ -7,7 +7,6 @@ $(document).ready(function () {
     
     $(window).scroll(function () { 
         var posicao_scroll = $(window).scrollTop();
-        
         /* Verificando se eles estão dentro do seu campo de aparição */ 
         var rodape_on1;
         var rodape_on2;
@@ -22,7 +21,6 @@ $(document).ready(function () {
             rodape_on2 = false;
         }
         /* fim da verificação */
-
 
         var tipo = $("#RodapeFixo").css("display");
 
@@ -43,17 +41,6 @@ $(document).ready(function () {
 
     /* console.log("("+posicao_scroll +" >= "+"("+distancia_topo+ " + ("+ altura_Elemento + " - " + altura_viewport + ")))");*/
     });
-
-
-
-
-
-
-
-
-
-
-
 
 });
 $("#ancoracoworking ").click(function() {
@@ -76,17 +63,4 @@ $("#ancoraplanos ").click(function() {
     let posicao = $(".NossosPlanos ").offset().top - $("nav ").height() - 15;
     $(window).scrollTop(posicao);
 })
-$("#ancorareduza").click(function(){
-    let posicao = $(".ReduzaCustos").offset().top - $("nav").height() -15;
-    $(window).scrollTop(posicao);
-});
 
-$("#ancoraespaco").click(function(){
-    let posicao = $(".ReduzaCustos").offset().top - $("nav").height() -15;
-    $(window).scrollTop(posicao);
-});
-
-$("#ancoramissao").click(function(){
-    let posicao = $(".Missao").offset().top - $("nav").height() -0;
-    $(window).scrollTop(posicao);
-});
