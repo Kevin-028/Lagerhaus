@@ -30,6 +30,8 @@
 
         gtag('config', 'G-2JKHPXT7C7');
     </script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+
 </head>
 
 <body>
@@ -152,39 +154,41 @@
         <!--Endereço Fiscal-->
         <section id="2">
             <div class="EnderecoFiscal">
-                <div class="row featurette">
-                    <div class="col-md-6  order-md-1">
-                        <h1>Endereço Fiscal</h1>
-                        <p>Precisa registrar a empresa, mas para isso necessita de endereço para abrir o CNPJ. Mas antes que você se preocupe em alugar uma sala comercial e gastar uma fortuna, saiba que existe uma alternativa muito mais viável e econômica para
-                            isso. O Endereço Fiscal ou Escritório Virtual é um serviço para quem precisa provar a existência jurídica e física de seu negócio.
-                        </p>
+                <div class="EnderecoFiscalTamanho">
+                    <div class="row featurette">
+                        <div class="col-md-6  order-md-1">
+                            <h1>Endereço Fiscal</h1>
+                            <p>Precisa registrar a empresa, mas para isso necessita de endereço para abrir o CNPJ. Mas antes que você se preocupe em alugar uma sala comercial e gastar uma fortuna, saiba que existe uma alternativa muito mais viável e econômica para
+                                isso. O Endereço Fiscal ou Escritório Virtual é um serviço para quem precisa provar a existência jurídica e física de seu negócio.
+                            </p>
+                        </div>
+                        <div class="col-md-6 order-md-2">
+                            <img src="img/Endereco_fiscal.svg" alt="work-place-space">
+                        </div>
                     </div>
-                    <div class="col-md-6 order-md-2">
-                        <img src="img/Endereco_fiscal.svg" alt="work-place-space">
+                    <div class="row featurette">
+                        <div class="col-6  order-md-1">
+                            <img src="img/Registro_legal_empresa.svg" alt="work-space-time">
+                            <h3>Registro Legal da Empresa</h3>
+                            <p class="DescricaoIcone">Sem dores de cabeça em abrir a empresa. Simples, fácil e prático!</p>
+                        </div>
+                        <div class="col-6  order-md-2">
+                            <img src="img/Estabilidade_endereco.svg" alt="meeting-meet-client">
+                            <h3>Estabilidade de Endereço</h3>
+                            <p class="DescricaoIcone">Constante mudança de local não exige mudança de endereço.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="row featurette">
-                    <div class="col-6  order-md-1">
-                        <img src="img/Registro_legal_empresa.svg" alt="work-space-time">
-                        <h3>Registro Legal da Empresa</h3>
-                        <p class="DescricaoIcone">Sem dores de cabeça em abrir a empresa. Simples, fácil e prático!</p>
-                    </div>
-                    <div class="col-6  order-md-2">
-                        <img src="img/Estabilidade_endereco.svg" alt="meeting-meet-client">
-                        <h3>Estabilidade de Endereço</h3>
-                        <p class="DescricaoIcone">Constante mudança de local não exige mudança de endereço.</p>
-                    </div>
-                </div>
-                <div class="row featurette">
-                    <div class="col-6 order-md-1">
-                        <img src="img/Gerenciamento_correspondencia.svg" alt="conference-room-ideia">
-                        <h3>Gerenciamento de Correspondência</h3>
-                        <p class="DescricaoIcone">Garanta conforto em receber suas encomendas.</p>
-                    </div>
-                    <div class="col-6 order-md-2">
-                        <img src="img/Economia.svg" alt="place-complete-give">
-                        <h3>Economia</h3>
-                        <p class="DescricaoIcone">Redução de custos, invista mais em seu negócio.</p>
+                    <div class="row featurette">
+                        <div class="col-6 order-md-1">
+                            <img src="img/Gerenciamento_correspondencia.svg" alt="conference-room-ideia">
+                            <h3>Gerenciamento de Correspondência</h3>
+                            <p class="DescricaoIcone">Garanta conforto em receber suas encomendas.</p>
+                        </div>
+                        <div class="col-6 order-md-2">
+                            <img src="img/Economia.svg" alt="place-complete-give">
+                            <h3>Economia</h3>
+                            <p class="DescricaoIcone">Redução de custos, invista mais em seu negócio.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -392,7 +396,7 @@
                         <p>contato@lagerhaus.ws</p>
                     </div>
                     <div class="col-md-4 ">
-                        <p>Av.Álvaro Guimarães, 1380 - 1384, Planalto</p>
+                        <p>Av. Álvaro Guimarães, 1380 - 1384, Planalto</p>
                         <p>São Bernardo do Campo SP-09890-003</p>
                         <p>©2020 copyright 3POINT DIGITAL LTDA.</p>
                     </div>
@@ -454,7 +458,8 @@
                                                 </div>
                                                 <div class="form-group rounded-pill" id="campoform" > <label for="exampleFormControlTextarea1"></label>
                                                     <textarea class="form-control"  rows="3" placeholder="Deixe aqui seu comentário" name="comentarios"></textarea>										  								
-                                                </div><br>
+                                                </div>
+                                                <div class="g-recaptcha" data-sitekey="INSIRA-AQUI-A-CHAVE-DO-SITE"></div><br>
                                                 <p> 
                                                     <input class="btn btn-light rounded-pill" type="submit"   onclick="alert('Mensagem enviada. Obrigado por entrar em contato!')" id="enviarform1"> 		
                                                 </p>
@@ -493,75 +498,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/java/javinha.js"></script>
-    <script>
-        
-$(document).ready(function () {
-    var altura_viewport = $(window).height();
-    var altura_Elemento = $(document).height();
-    var distancia_topo  = $("#main").offset().top;
-    var diferenca       = altura_Elemento - altura_viewport;
-    
-    $(window).scroll(function () { 
-        var posicao_scroll = $(window).scrollTop();
-        /* Verificando se eles estão dentro do seu campo de aparição */ 
-        var rodape_on1;
-        var rodape_on2;
-        if (10 >= posicao_scroll){
-            rodape_on1 = true;
-        }else{
-            rodape_on1 = false;
-        }
-        if (posicao_scroll >= (50-distancia_topo + diferenca)){
-            rodape_on2 = true;
-        }else{
-            rodape_on2 = false;
-        }
-        /* fim da verificação */
+    <script type="text/javascript" src="java/javinha.js"></script>
 
-        var tipo = $("#RodapeFixo").css("display");
-
-
-        if ((rodape_on1 || rodape_on2) == true){
-            if ( tipo != "flex"){
-                $("#RodapeFixo").slideDown();
-                $("#RodapeFixo").show();
-            }
-
-        }else{
-            if ( tipo != "none"){
-                $("#RodapeFixo").slideUp();
-                $("#RodapeFixo").show();
-            }
-        };
-        
-
-    /* console.log("("+posicao_scroll +" >= "+"("+distancia_topo+ " + ("+ altura_Elemento + " - " + altura_viewport + ")))");*/
-    });
-
-});
-$("#ancoracoworking ").click(function() {
-    let posicao = $(".Coworking ").offset().top - $("nav ").height() + 10;
-    $(window).scrollTop(posicao);
-})
-
-$("#ancoraendereco ").click(function() {
-    let posicao = $(".EnderecoFiscal ").offset().top - $("nav ").height() - 15;
-    $(window).scrollTop(posicao);
-})
-
-$("#ancorastorage ").click(function() {
-    let posicao = $(".Storage ").offset().top - $("nav ").height() - 15;
-    $(window).scrollTop(posicao);
-})
-
-
-$("#ancoraplanos ").click(function() {
-    let posicao = $(".NossosPlanos ").offset().top - $("nav ").height() - 15;
-    $(window).scrollTop(posicao);
-})
-
-    </script>
 </body>
 
 </html>

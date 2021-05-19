@@ -266,14 +266,14 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-.EnderecoFiscal {
-    font-size: 16px !important;
+.EnderecoFiscalTamanho{
     width: 1100px;
     margin: 0 auto;
-    position: relative;
+}
+.EnderecoFiscal {
+    color: #3d3c3c;
+    margin: 0 auto;
     padding: 2% 5% 2% 5%;
-    color: #3d3c3c !important;
 }
 
 .EnderecoFiscal div {
@@ -281,7 +281,8 @@
 }
 
 .EnderecoFiscal h1 {
-    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 2em;
 }
 
@@ -363,7 +364,7 @@
     font-size: 1em;
     background-color: #EB8D2A;
     width: auto;
-    padding: 2% 5% 100px 5%;
+    padding: 2% 5% 2% 5%;
     color: #3d3c3c;
 }
 
@@ -427,9 +428,8 @@
         width: auto;
 
     }
-    .EnderecoFiscal {
+    .EnderecoFiscalTamanho{
         width: auto;
-
     }
     
     #StorageTamanho {
@@ -729,7 +729,9 @@
         height: 80px;
     }
     .final {
+        height: 190px;
         font-size: 12px;
+        font-size: 0.9em;
     }
     #redes {
         font-size: 0.8em;
